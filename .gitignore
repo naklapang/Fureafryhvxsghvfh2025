@@ -1,0 +1,27 @@
+# Node modules dan package manager
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# File environment dan konfigurasi rahasia
+.env
+.env.local
+.env.production
+
+# Cache dan file sementara
+.DS_Store
+*.log
+cache/
+tmp/
+
+# Hasil build
+dist/
+build/
+*.zip
+
+# File editor
+*.bak
+*.swp
+.idea/
+.vscode/
